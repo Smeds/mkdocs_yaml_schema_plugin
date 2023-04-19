@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.1...v0.1.2) (2023-04-19)
+
+
+### Bug Fixes
+
+* set version gh-action-pypi-publish ([9de577f](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/9de577f308a450bf38a7497ecd21563f5affd235))
+
 ## [0.1.1](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.0...v0.1.1) (2023-04-19)
 
 
