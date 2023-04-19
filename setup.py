@@ -19,7 +19,7 @@ setup(
     url="https://github.com/smeds/mkdocs-yaml-schema-plugin",
     license="MIT license",
     packages=["mkdocs_yaml_schema_plugin"],
-    install_requires=["mkdocs", "pyyaml", "versioneer"],
+    install_requires=["mkdocs", "pyyaml"],
     python_requires=">=3.8, <4",
     classifiers=[
         "Development Status :: 4 - Beta",
