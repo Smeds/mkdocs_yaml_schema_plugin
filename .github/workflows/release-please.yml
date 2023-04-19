@@ -12,7 +12,7 @@ jobs:
         id: release
         with:
           release-type: python
-          package-name: hydra-genetics
+          package-name: MkDocsYamlSchemaPlugin
           default-branch: main
         
       - uses: actions/checkout@v2
