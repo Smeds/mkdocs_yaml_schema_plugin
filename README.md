@@ -13,10 +13,14 @@ Then add the following entry to the MkDocs config file:
 ```yml
 plugins:
 - yaml-schema:
-yaml_schema: "docs/item.schema.json"
+    yaml_files: 
+      - file: "workflow/schemas/config.schema.yaml"
+        tag: "CONFIGSCHEMA"
+      - file: "workflow/schemas/resources.schema.yaml"
+        tag: "RESOURCESSCHEMA"
 ```
 
 In your target file, add a tag to be replaced
 ```
-#JsonSchema#
+#RESOURCESSCHEMA#
 ```
