@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.2...v0.1.3) (2023-04-19)
+
+
+### Bug Fixes
+
+* update package name ([3269d87](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/3269d87c12e5dd45f00fc811bf4806cc7d57ec1e))
+
 ## [0.1.2](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.1...v0.1.2) (2023-04-19)
 
 
