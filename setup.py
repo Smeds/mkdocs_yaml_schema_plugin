@@ -1,13 +1,15 @@
 
 # -*- coding: utf-8 -*-
 from setuptools import setup
+import versioneer
 
 with open("README.md") as f:
     readme = f.read()
 
 setup(
     name="MkDocsYamlSchemaPlugin",
-    version="0.1.0",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     description="MkDocs Plugin to parse yaml schemas.",
     long_description_content_type="text/markdown",
     long_description=readme,
@@ -17,7 +19,7 @@ setup(
     url="https://github.com/smeds/mkdocs-yaml-schema-plugin",
     license="MIT license",
     packages=["mkdocs_yaml_schema_plugin"],
-    install_requires=["mkdocs", "pyyaml"],
+    install_requires=["mkdocs", "pyyaml", "versioneer"],
     python_requires=">=3.8, <4",
     classifiers=[
         "Development Status :: 4 - Beta",
