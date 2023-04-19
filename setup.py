@@ -7,7 +7,7 @@ with open("README.md") as f:
     readme = f.read()
 
 setup(
-    name="MkDocsYamlSchemaPlugin",
+    name="mkdocs-yaml-schema-plugin",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description="MkDocs Plugin to parse yaml schemas.",
