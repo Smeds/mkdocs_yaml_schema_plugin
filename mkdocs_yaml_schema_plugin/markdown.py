@@ -35,7 +35,7 @@ class markdown_gen:
                     parts = g.group()[1:-1].split("__")
                     new_markdown = self.markdown_for_items(parts[1],
                                                            extract_yaml_section(parts[1:],
-                                                                                values['data']['properties']))
+                                                           values['data']['properties']))
                     markdown = markdown.replace(g.group(), new_markdown)
 
             return markdown
@@ -45,7 +45,8 @@ class markdown_gen:
         markdown_data += "| --- | --- | --- |\n"
 
         for key, values in items['properties'].items():
-            markdown_data += f"| {key} | {values['type']} | {values['description']} |\n"
+            description = values['description'].replace("\n", "<br />")
+            markdown_data += f"| {key} | {values['type']} | {description} |\n"
 
         return markdown_data
 
