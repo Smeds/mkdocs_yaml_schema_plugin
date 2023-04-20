@@ -13,6 +13,7 @@ class markdown_gen:
     schema_file = ''
     tag = ''
     indent_val = "    "
+    bold_keys = ["NOTE:", "RECOMMENDATION:"]
 
     def safe_get_value(self, data, key):
         if data is None:
@@ -46,6 +47,8 @@ class markdown_gen:
 
         for key, values in items['properties'].items():
             description = values['description'].replace("\n", "<br />")
+            for bold_key in bold_keys:
+                description = values['description'].replace(bold_key, f"**{bold_key}**")
             markdown_data += f"| {key} | {values['type']} | {description} |\n"
 
         return markdown_data
