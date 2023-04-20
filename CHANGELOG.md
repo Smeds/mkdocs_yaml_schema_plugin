@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.0...v0.2.1) (2023-04-20)
+
+
+### Bug Fixes
+
+* get bold_keys from object ([74ed38d](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/74ed38d3c61c7d4293e9888062a5dd36bad74d8c))
+
 ## [0.2.0](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.3...v0.2.0) (2023-04-20)
 
 
