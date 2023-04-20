@@ -47,7 +47,7 @@ class markdown_gen:
 
         for key, values in items['properties'].items():
             description = values['description'].replace("\n", "<br />")
-            for bold_key in bold_keys:
+            for bold_key in self.bold_keys:
                 description = values['description'].replace(bold_key, f"**{bold_key}**")
             markdown_data += f"| {key} | {values['type']} | {description} |\n"
 
