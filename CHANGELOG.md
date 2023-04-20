@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.1...v0.2.2) (2023-04-20)
+
+
+### Bug Fixes
+
+* variable assignment ([641e8de](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/641e8de36b0fb1305c6ddee4b96b516b459c9df1))
+
 ## [0.2.1](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.0...v0.2.1) (2023-04-20)
 
 
