@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.3...v0.2.0) (2023-04-20)
+
+
+### Features
+
+* added bolding of keywords ([b33bd0c](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/b33bd0c1326c3a1f29fb2959e240bf9f2738d21c))
+* replace newline with html new paragraph ([4881299](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/4881299e6c5a91c2fa5349beecab0c87f72e6fe8))
+
 ## [0.1.3](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.1.2...v0.1.3) (2023-04-19)
 
 
