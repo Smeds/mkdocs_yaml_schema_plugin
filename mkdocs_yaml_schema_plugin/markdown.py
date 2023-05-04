@@ -60,6 +60,6 @@ class markdown_gen:
             self.yaml_config.append({
                 'tag': f['tag'],
                 'file': f['file'],
-                'regex': r"#" + re.escape(f['tag']) + r"[A-Za-z_]*#"
+                'regex': r"#" + re.escape(f['tag']) + r"[A-Za-z0-9_]*#"
             })
             print(f"Got config: File: {f['file']} Tag: {f['tag']}")
