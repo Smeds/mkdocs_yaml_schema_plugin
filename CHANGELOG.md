@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.3](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.2...v0.2.3) (2023-05-04)
+
+
+### Bug Fixes
+
+* allow numbers in variable names ([ea5f048](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/ea5f04808c15bd5b937f8019671f9a13c3db497d))
+
 ## [0.2.2](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.1...v0.2.2) (2023-04-20)
 
 
