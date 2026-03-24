@@ -48,7 +48,7 @@ Have you provided the following extra information/files:
 - OS: <!-- [e.g. CentOS Linux, macOS, Linux Mint...] -->
 - Version <!-- [e.g. 7, 10.13.6, 18.3...] -->
 
-## Hydra Genetics Installation
+## mkdocs-yaml-schema-plugin Genetics Installation
 
 - Version: <!-- [e.g. 0.0.1] -->
 
