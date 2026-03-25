@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.3...v0.2.4) (2026-03-25)
+
+
+### Bug Fixes
+
+* handle cases where type is oneOf or anyOf ([c484070](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/c484070b6b24a57d8920e00d46f6e5ba07b043ae))
+
 ## [0.2.3](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.2...v0.2.3) (2023-05-04)
 
 
