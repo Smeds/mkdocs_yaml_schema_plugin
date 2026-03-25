@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    ".": {
+      "release-type": "python",
+      "package-name": "mkdocs-yaml-schema-plugin",
+      "changelog-path": "CHANGELOG.md",
+      "include-v-in-tag": true,
+      "include-component-in-tag": false,
+      "draft": false,
+      "prerelease": false
+    }
+  },
+  "bootstrap-sha": "c1f35bb735337fa5eed730f70b9a30e5020fb69c"
+}
