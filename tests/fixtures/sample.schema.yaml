@@ -1,0 +1,28 @@
+properties:
+  database:
+    type: object
+    description: Database configuration
+    properties:
+      host:
+        type: string
+        description: The database host
+      port:
+        type: integer
+        description: The database port
+      retries:
+        description: "Number of retries. NOTE: Set to 0 to disable. RECOMMENDATION: Use 3."
+        oneOf:
+          - type: integer
+          - type: "null"
+  logging:
+    type: object
+    description: Logging configuration
+    properties:
+      level:
+        type: string
+        description: Log level
+      format:
+        anyOf:
+          - type: string
+          - type: "null"
+        description: "Log format\nSecond line"
