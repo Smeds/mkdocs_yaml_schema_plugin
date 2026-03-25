@@ -20,15 +20,15 @@ jobs:
   python_code:
     name: check pycodestyle and unittest
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13", "3.14"]
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3.8
+      - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
-      - name: Add conda to system path
-        run: |
-          echo $CONDA/bin >> $GITHUB_PATH
+          python-version: ${{ matrix.python-version }}
       - name: Install dependencies tests
         run: |
           pip install pycodestyle pytest

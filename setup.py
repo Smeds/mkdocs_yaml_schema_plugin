@@ -20,14 +20,15 @@ setup(
     license="MIT license",
     packages=["mkdocs_yaml_schema_plugin"],
     install_requires=["mkdocs", "pyyaml"],
-    python_requires=">=3.8, <4",
+    python_requires=">=3.11, <4",
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
     ],
     # This entry point is necessary for MkDocs to be able to use the plugin
     entry_points={
