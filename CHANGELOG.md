@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.4...v0.3.0) (2026-03-25)
+
+
+### Features
+
+* update supported python versions ([e47c35a](https://github.com/Smeds/mkdocs_yaml_schema_plugin/commit/e47c35a3f94acf764167987197d2afd9db8a8074))
+
 ## [0.2.4](https://github.com/Smeds/mkdocs_yaml_schema_plugin/compare/v0.2.3...v0.2.4) (2026-03-25)
 
 
