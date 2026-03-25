@@ -46,7 +46,7 @@ class markdown_gen:
         markdown_data += "| --- | --- | --- |\n"
 
         for key, values in items['properties'].items():
-            description = values['description'].replace("\n", "<br />")
+            description = values.get('description', 'No description').replace("\n", "<br />")
             for bold_key in self.bold_keys:
                 description = description.replace(bold_key, f"**{bold_key}**")
 
@@ -55,7 +55,7 @@ class markdown_gen:
                 type = ", ".join(list(map(lambda item: item['type'], data)))
             else:
                 type = values['type']
-            markdown_data += f"| {key} | {type} | {values.get('description', 'No description')} |\n"
+            markdown_data += f"| {key} | {type} | {description} |\n"
         return markdown_data
 
     def set_config(self, config):

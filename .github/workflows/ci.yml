@@ -1,5 +1,5 @@
 
-name: Lint
+name: CI
 
 # Controls when the action will run.
 on:
@@ -31,6 +31,9 @@ jobs:
           echo $CONDA/bin >> $GITHUB_PATH
       - name: Install dependencies tests
         run: |
-          pip install pycodestyle
+          pip install pycodestyle pytest
+          pip install -e .
       - name: Check pycodestyle
         run: pycodestyle --max-line-length=130 --statistics ./
+      - name: Run pytest
+        run: pytest tests/
