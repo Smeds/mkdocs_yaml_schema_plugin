@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest an idea for the hydra-genetics/tools
+about: Suggest an idea for the smeds/mkdocs_yaml_schema_plugin
 labels: enhancement
 ---
 

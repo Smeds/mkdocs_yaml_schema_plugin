@@ -49,8 +49,13 @@ class markdown_gen:
             description = values['description'].replace("\n", "<br />")
             for bold_key in self.bold_keys:
                 description = description.replace(bold_key, f"**{bold_key}**")
-            markdown_data += f"| {key} | {values['type']} | {description} |\n"
 
+            data = values.get('oneOf', values.get('anyOf', None))
+            if data is not None:
+                type = ", ".join(list(map(lambda item: item['type'], data)))
+            else:
+                type = values['type']
+            markdown_data += f"| {key} | {type} | {values.get('description', 'No description')} |\n"
         return markdown_data
 
     def set_config(self, config):
